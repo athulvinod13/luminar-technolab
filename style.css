@@ -1,0 +1,262 @@
+
+.navbar{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar img{
+    width: 300px;
+    margin-left: 100px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #6b1394;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+    width: 100%;
+    
+    
+}
+
+.navbar ul li a:hover{
+    color: #6b1394;
+
+}
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: #deccff;
+    display: flex;
+    
+    align-items: center;
+}
+.col img{
+    width: 500px;
+    height: 400px;
+    
+}
+.col{
+    width: 100px;
+    height: 400px;
+    
+}
+.c1{
+    padding: 70px;
+}
+.c1{
+    color:#6b1394; ;
+}
+.c1 p{
+    color: black;
+}
+.c1 button{
+    background-color: #6b1394;
+    border: none;
+    width: 150px;
+    border-radius: 100px;
+    padding: 10px;
+}
+.c1 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.programs h1{
+    text-align: center;
+    color: #6b1394;
+}
+.para{
+    width: 600px;
+    text-align: center;
+    margin-left: 350px;
+    
+}
+
+.para p{
+    text-align:center;
+}
+.search{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 400px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search:hover input{
+    width: 500px;
+    box-shadow: 0px 2px #6b1394;
+}
+.search input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.3s;
+    background: transparent;
+}
+.search a .fas{
+    color:#6b1394;
+    font-size: 30px;
+
+}
+.courses{
+ 
+    height: auto;
+    display: flex;
+    
+}
+.card{
+    padding: 10px;
+    width: 600px;
+    height: 750px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.log{
+    border-radius: 500px;
+    margin-left: 90px;
+    width: 200px;
+    height: 160px;
+    background-color:rgb(236, 236, 236);
+}
+.card img{
+    width: 150px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.card h3{
+    text-align: center;
+    
+    font-weight: bold;
+    color: #6b1394;
+}
+.report{
+    color: #6b1394;
+}
+.card h5{
+    color: #6b1394;
+    font-weight: bold;
+}
+.view{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+    color:#6b1394;
+    border-radius: 50px;
+    border:2px solid #6b1394;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.ca1 {
+    margin-left:240px;
+}
+.ca3 {
+    margin-left:240px;
+}
+.ca5 {
+    margin-left:240px;
+}
+.view:hover{
+    background-color: #6b1394;
+    color: white;
+}
+.card:hover{
+    box-shadow: 4px 5px 5px;
+}
+.abtlumi{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.col1{
+    width: 50%;
+    height: 680px;
+    background-color: rgb(248, 247, 250);
+}
+.col1 img{
+    width: 100%;
+    height: 680px;
+}
+.c3 h1{
+    color: #6b1394;
+    font-weight: bold;
+}
+.c3{
+    padding: 50px;
+}
+.c3 p{
+    color: rgb(66, 65, 65);
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.c3 img{
+    width: 500px;
+    height: 390px;
+}
+
+.banner{
+    background-image: url(./images/pexels-kindel-media-7054785.47b27e7d.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    
+}
+.container{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 50px;
+}
+.container p{
+    font-weight: lighter;
+    color: rgb(155, 155, 29);
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: #6b1394;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+   
+}
+.cours p{
+    font-weight: lighter;
+    color: rgb(51, 49, 49);
+}
